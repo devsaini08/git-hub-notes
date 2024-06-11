@@ -1,0 +1,19 @@
+
+// comman cmd
+
+git --version   => to find git version
+ls              => to show all folder files
+git status      =>
+pwd             => present working directory
+
+
+// git config cmd
+
+git config --global user.email "devsaini143278@gmail.com"
+git config --global user.username "devsaini08"
+git config --list
+
+// creating repository
+
+git status
+git init
