@@ -7,31 +7,47 @@ git status      =>
 pwd             => present working directory
 
 
+
+
+
 // git config cmd
 
 git config --global user.email "devsaini143278@gmail.com"
 git config --global user.username "devsaini08"
 git config --list
 
+
+
+
 // creating repository
 
 git status
 git init
+
+
 
 // add file
 
 git add cmd.txt file2.txt
 git add .
 
+
+
+
 //comit
 
 git commit -m "commit messseg"
 git status 
 
+
+
+
 // log
 
 git log
 git log --oneline
+
+
 
 // branch cmd
 
@@ -41,3 +57,21 @@ git switch new-branch    => to change the branch
 git switch -c dark-mode  => to crate a new branch and switch 
 git checkour orange-mode => to ckeckout any branch and switch
 
+
+
+
+// merge n branch into main branch (state forword)
+
+git chekout main-branch
+git merge new-branch
+
+
+
+// rename a branch
+git branch -M <old-branch-name> <new-branch-name.
+
+// delete a branch
+git branch -d <branch-name>
+
+// list branch
+git branch
