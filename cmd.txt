@@ -17,3 +17,18 @@ git config --list
 
 git status
 git init
+
+// add file
+
+git add cmd.txt file2.txt
+git add .
+
+//comit
+
+git commit -m "commit messseg"
+git status 
+
+// log
+
+git log
+git log --oneline
