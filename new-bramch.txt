@@ -1,4 +1,4 @@
 hellow new branch file
 
 
-writen in new branch
+writen in master branch in new branch file
