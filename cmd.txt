@@ -75,3 +75,29 @@ git branch -d <branch-name>
 
 // list branch
 git branch
+
+
+// diff   (imformatory cmd)           => use ti see deffrencd    ---file1   +++file2
+
+git diff             => plane command
+git diff  --stage    => use to see deffrenc bitween staged
+git diff  <branch-one-name> <branch-two-name>    => use to use deffrenc between two branches
+git diff  <branch-one-name..<branch-two-name>    => use to use deffrenc between two branches
+git diff  <commit-hash-one> <commit-hash-two>    => use to see deffrenc between two commit
+
+// stash    (save our file localy for work on another branches)
+
+git stash       => when you make some change in any file and don't won't to commit and you want to change your branch 
+git stash save "work in progrress on cmd file"     => giving name to the stash
+git stash list   => to list stash
+git stash apply  =>  
+git stash aaply stash@{0}  =>
+git stash pop => applying and droping the stash
+git stash drop   => to drop or remove the stash
+git stash clear  => to clear the stash
+
+
+// git Tags
+git tag        => to list tag
+git tag <tag-name> <commit-hash>
+git push origin <tag-name>
